@@ -1,0 +1,89 @@
+/* TodoWrapper.css */
+.TodoWrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .TodoWrapper h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Todo.css */
+  .Todo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .Todo p {
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  .Todo p.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .Todo div {
+    display: flex;
+  }
+  
+  .Todo div > * {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .Todo div > *:first-child {
+    margin-left: 0;
+  }
+  
+  /* TodoForm.css */
+  .TodoForm {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .TodoForm input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .TodoForm button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* EditTodoForm.css */
+  .EditTodoForm {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .EditTodoForm input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .EditTodoForm button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+ 
